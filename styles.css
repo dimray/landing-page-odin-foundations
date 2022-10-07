@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    border: black;
+    width: auto;
+    max-height: 200px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 20px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    gap: 150px;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 70px 100px 100px;
+}
+
+.split-section1-text {
+    max-width: 30%;
+    height: auto;
+    /* border-style: solid;
+    border-color: white; */
+
+}
+
+<h1> {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.btn1 {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    max-height: 40px;
+    color: white;
+}
+
+.section2 {
+
+    padding-bottom: 70px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.section-2-images {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.image-container {
+    max-width: 15%;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 60px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(80, 78, 78)
+}
+
+.quote-attribute {
+    font-weight: 900;
+    text-align: right;
+}
+
+.section4-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    margin: 50px 200px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    max-height: 40px;
+    color: white;
+    border: solid;
+    border-color: white;
+}
+
+.section4-text {
+    color: white;
+
+
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 15px 0 0 0;
+
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+
+}
